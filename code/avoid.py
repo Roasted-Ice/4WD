@@ -190,6 +190,7 @@ try:
 except KeyboardInterrupt:
     pass
 pwm_ENA.stop()
+
 pwm_ENB.stop()
 
 GPIO.cleanup()
